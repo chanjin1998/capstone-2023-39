@@ -7,25 +7,25 @@ function NaviBar() {
   return (
     <NaviContainer>
       <LogoButton>
-        <box-icon name='react' type='logo' animation='tada' flip='vertical' color='#ffffff'></box-icon> <br />
-        39조
-      </LogoButton>
+        <box-icon name='kickstarter' type='logo' color='#ffffff' ></box-icon> <br />
+          KUNDI
+        </LogoButton>
       <RouteButton>
         <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          <box-icon name='search-alt' color='#ffffff' ></box-icon><br />
-          악성 IP
+          <box-icon name='map-alt' color='#ffffff' ></box-icon> <br />
+          외부 IP <br />탐지
         </Link>
       </RouteButton>
       <RouteButton>
         <Link to="/statistics" style={{ textDecoration: "none", color: "white" }}>
-        <box-icon name='bar-chart-alt-2' type='solid' color='#ffffff' ></box-icon> <br />
-          IP 분석
+        <box-icon name='search-alt' color='#ffffff' ></box-icon><br />
+          탐지 IP <br />정보
         </Link>
       </RouteButton>
       <RouteButton>
         <Link to="/detect" style={{ textDecoration: "none", color: "white" }}>
         <box-icon name='error' color='#ffffff' ></box-icon> <br />
-          보안탐지<br/>대시보드
+          트래픽<br/>대시보드
         </Link>
       </RouteButton>
     </NaviContainer>
