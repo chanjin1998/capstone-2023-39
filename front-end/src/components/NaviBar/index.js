@@ -8,14 +8,9 @@ function NaviBar() {
     <NaviContainer>
       <RouteButton>
         <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          <box-icon
-            name="kickstarter"
-            type="logo"
-            flip="vertical"
-            color="#ffffff"
-          ></box-icon>
+        <box-icon name='desktop' color='#ffffff' ></box-icon>
           <br />
-          KUNDI
+          M&C
         </Link>
       </RouteButton>
       <RouteButton>
